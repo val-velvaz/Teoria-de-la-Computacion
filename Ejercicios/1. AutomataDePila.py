@@ -25,6 +25,7 @@ for c in test:  # c de character
         pila.pop()  # ) , x; lambda
         registrar(1, registro)
 
+
 if aceptada and pila[-1] == "#":
     pila.pop()  # lambda, #;  lambda
     registrar(2, registro)
